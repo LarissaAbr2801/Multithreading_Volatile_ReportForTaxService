@@ -5,10 +5,10 @@ import java.util.concurrent.Executors;
 
 public class Main {
 
-    public static int SHOP_QUANTITY = 3;
-    public static int NUMBER_OF_CASH_FLOWS = 10;
-    public static int ARRAY_START = 0;
-    public static int ARRAY_END = 100_000;
+    public final static int SHOP_QUANTITY = 3;
+    public final static int NUMBER_OF_CASH_FLOWS = 10;
+    public final static int ARRAY_START = 0;
+    public final static int ARRAY_END = 100_000;
 
     public static void main(String[] args) {
         ExecutorService service = Executors.newFixedThreadPool(SHOP_QUANTITY);
